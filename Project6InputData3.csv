@@ -1,0 +1,4 @@
+client_id,full_name,email_addr,contact_phone,street_addr,town,region,zip,country_code,reg_date,vat_number,revenue,industry_sector,staff_count,client_status,coupon_code
+CLI_007,Emma Davis,emma.davis@email.com,+1-555-777-8888,147 Birch Blvd,Austin,TX,78701,US,12 Jan 2025,77-8899001,300000,Technology,60,Active,SAVE10
+CLI_008,Frank Miller,frank.miller@email.com,+1-555-999-0000,258 Spruce St,Denver,CO,80201,US,25 Feb 2025,99-0011223,,Manufacturing,8,Inactive,
+CLI_009,Grace Taylor,grace.taylor@email.com,+1-555-222-3333,369 Willow Way,Portland,OR,97201,US,10 Mar 2025,22-3344556,180000,Retail,22,Active,NEW20

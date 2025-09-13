@@ -1,0 +1,16 @@
+name,description,example
+customer_id,Unique customer identifier,CUST_001
+customer_name,Full customer name,John Smith
+email,Email address,john.smith@email.com
+phone,Phone number,+1-555-123-4567
+address,Street address,123 Main St
+city,City name,New York
+state,State or province,NY
+postal_code,Postal/ZIP code,10001
+country,Country code,US
+registration_date,Date of registration,2024-01-15
+tax_id,Tax identification number,12-3456789
+annual_revenue,Annual revenue in USD,150000
+industry,Industry classification,Technology
+employee_count,Number of employees,25
+status,Customer status,Active

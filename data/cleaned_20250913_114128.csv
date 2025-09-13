@@ -1,0 +1,4 @@
+customer_id,customer_name,email,phone,address,city,state,postal_code,country,registration_date,tax_id,annual_revenue,industry,employee_count,status
+CUST_004,Alice Brown,alice.brown@email.com,+15551112222,321 Elm Street,Boston,MA,2101,USA,2024-01-15,11-2233445,125000.0,Healthcare,30,Active
+CUST_005,Charlie Wilson,charlie.wilson@email.com,+15553334444,654 Maple Drive,Seattle,WA,98101,United States,2024-02-20,33-4455667,85000.0,Manufacturing,12,Active
+CUST_006,Diana Lee,diana.lee@email.com,+15555556666,987 Cedar Lane,Miami,FL,33101,US,2024-03-10,55-6677889,200000.0,Technology,45,Active

@@ -1,0 +1,4 @@
+CUST_ID,CUSTOMER NAME,EMAIL ADDRESS,PHONE NUMBER,STREET ADDRESS,CITY NAME,STATE CODE,ZIP CODE,COUNTRY,REG DATE,TAX ID,ANNUAL REVENUE,INDUSTRY TYPE,EMP COUNT,CUSTOMER STATUS
+CUST_004,"Alice Brown","alice.brown@email.com","+1-555-111-2222","321 Elm Street","Boston","MA","02101","USA","Jan 15, 2024","11-2233445","$125,000.00","Healthcare","30","Active"
+CUST_005,"Charlie Wilson","charlie.wilson@email.com","+1-555-333-4444","654 Maple Drive","Seattle","WA","98101","United States","February 20, 2024","33-4455667","$85,000.00","Manufacturing","12","Active"
+CUST_006,"Diana Lee","diana.lee@email.com","+1-555-555-6666","987 Cedar Lane","Miami","FL","33101","US","03/10/2024","55-6677889","$200,000.00","Technology","45","Active"
