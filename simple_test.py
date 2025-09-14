@@ -15,7 +15,7 @@ def test_schema_loader():
     print("Testing Schema Loader...")
     
     try:
-        from src.schema_loader import SchemaLoader
+        from app.schema_loader import SchemaLoader
         schema_loader = SchemaLoader()
         success = schema_loader.load_schema("canonicalSchema/Project6StdFormat.csv")
         
@@ -36,7 +36,7 @@ def test_header_mapper(schema_loader):
     print("\nTesting Header Mapper...")
     
     try:
-        from src.header_mapper import HeaderMapper
+        from app.header_mapper import HeaderMapper
         header_mapper = HeaderMapper(schema_loader)
         
         # Test with different header sets
@@ -74,7 +74,7 @@ def test_data_validator():
     print("\nTesting Data Validator...")
     
     try:
-        from src.data_validator import DataValidator
+        from app.data_validator import DataValidator
         validator = DataValidator()
         
         # Create test data
@@ -112,7 +112,7 @@ def test_value_normalizer():
     print("\nTesting Value Normalizer...")
     
     try:
-        from src.value_normalizer import ValueNormalizer
+        from app.value_normalizer import ValueNormalizer
         normalizer = ValueNormalizer()
         
         # Create test data with various formats
@@ -147,7 +147,7 @@ def test_learning_system():
     print("\nTesting Learning System...")
     
     try:
-        from src.learning_system import LearningSystem
+        from app.learning_system import LearningSystem
         learning_system = LearningSystem("test_learning_data.json")
         
         # Test learning from mappings
@@ -186,8 +186,8 @@ def test_with_sample_files():
     print("\nTesting with Sample Files...")
     
     try:
-        from src.schema_loader import SchemaLoader
-        from src.header_mapper import HeaderMapper
+        from app.schema_loader import SchemaLoader
+        from app.header_mapper import HeaderMapper
         
         schema_loader = SchemaLoader()
         schema_loader.load_schema("canonicalSchema/Project6StdFormat.csv")

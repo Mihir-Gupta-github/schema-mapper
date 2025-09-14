@@ -25,11 +25,7 @@ class HeaderMapper:
         
         # Initialize Groq LLM
         if self.groq_api_key:
-            self.llm = ChatGroq(
-                groq_api_key=self.groq_api_key,
-                model_name="llama3-8b-8192",
-                temperature=0.1
-            )
+            self.llm=ChatGroq(groq_api_key=self.groq_api_key, model_name="llama-3.1-8b-instant",  temperature=0.1)
         else:
             logger.warning("GROQ_API_KEY not found. AI mapping will be disabled.")
             self.llm = None

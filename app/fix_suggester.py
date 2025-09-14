@@ -11,6 +11,7 @@ import logging
 from langchain_groq import ChatGroq
 from langchain.prompts import PromptTemplate
 from langchain.schema import HumanMessage, SystemMessage
+import pandas as pd
 
 logger = logging.getLogger(__name__)
 
@@ -22,11 +23,8 @@ class FixSuggester:
         
         # Initialize Groq LLM
         if self.groq_api_key:
-            self.llm = ChatGroq(
-                groq_api_key=self.groq_api_key,
-                model_name="llama3-8b-8192",
-                temperature=0.1
-            )
+            # self.groq_api_key=os.getenv("GROQ_API_KEY")
+            self.llm=ChatGroq(groq_api_key=self.groq_api_key, model_name="llama-3.1-8b-instant",  temperature=0.1)
         else:
             logger.warning("GROQ_API_KEY not found. AI fix suggestions will be disabled.")
             self.llm = None
